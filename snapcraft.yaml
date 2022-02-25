@@ -2,9 +2,9 @@ name: random-learning
 version: git
 summary: Random term and stackoverflow.com title for learning.
 description: Random term and stackoverflow.com title for learning.
-
 base: core18
-confinement: devmode
+grade: stable
+confinement: strict
 
 parts:
   random-learning:
