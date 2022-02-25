@@ -12,7 +12,7 @@ program.command('write')
     .option('-l, --isLength <boolean>', 'write parameter length', 'false')
     .action((str, options) => {
         const isLength = options.isLength === 'true'
-        const resultString = isLength ? str + "aaa" : str
+        const resultString = isLength ? str.length : str
         console.log(resultString)
     });
 
