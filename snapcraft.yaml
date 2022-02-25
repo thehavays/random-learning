@@ -9,7 +9,7 @@ confinement: devmode
 parts:
   random-learning:
     plugin: nodejs
-    nodejs-version: 14.17.5
+    nodejs-version: 16.14.0
     nodejs-package-manager: npm
     source: .
 
