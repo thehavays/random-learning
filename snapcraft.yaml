@@ -10,7 +10,11 @@ parts:
   random-learning:
     plugin: nodejs
     source: .
+    node-packages:
+      - hello-node-snap
+      - commander
 
 apps:
   random-learning:
-    command: random-learning
+    command: bin/random-learning
+    plugs: [network]
