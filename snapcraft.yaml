@@ -3,7 +3,7 @@ version: git
 summary: Random term and stackoverflow.com title for learning.
 description: Random term and stackoverflow.com title for learning.
 
-base: core18
+base: core20
 confinement: devmode
 
 parts:
