@@ -6,6 +6,10 @@ base: core18
 grade: stable
 confinement: strict
 
+apps:
+  random-learning-cli:
+    command: random-learning
+
 parts:
   random-learning:
     plugin: nodejs
@@ -13,8 +17,8 @@ parts:
     nodejs-package-manager: npm
     source: https://github.com/thehavays/random-learning.git
 
-apps:
-  random-learning:
-    command: random-learning
-    plugs:
-      - network
+plugs:
+  random-learning-home:
+    interface: home
+  random-learning-network:
+    interface: network
