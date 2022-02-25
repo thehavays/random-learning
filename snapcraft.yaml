@@ -16,3 +16,5 @@ parts:
 apps:
   random-learning:
     command: random-learning
+    plugs:
+      - network
