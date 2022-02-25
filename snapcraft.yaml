@@ -9,9 +9,9 @@ confinement: devmode
 parts:
   random-learning:
     plugin: nodejs
-    nodejs-version: 16.14.0
+    #nodejs-version: 16.14.0
     nodejs-package-manager: npm
-    source: .
+    source: https://github.com/thehavays/random-learning.git
 
 apps:
   random-learning:
