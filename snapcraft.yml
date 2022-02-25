@@ -1,0 +1,16 @@
+name: random-learning
+version: git
+summary: Random term and stackoverflow.com title for learning.
+description: Random term and stackoverflow.com title for learning.
+
+base: core18
+confinement: devmode
+
+parts:
+  random-learning:
+    plugin: nodejs
+    source: .
+
+apps:
+  random-learning:
+    command: random-learning
