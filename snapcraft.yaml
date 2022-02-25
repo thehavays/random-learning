@@ -3,12 +3,14 @@ version: git
 summary: Random term and stackoverflow.com title for learning.
 description: Random term and stackoverflow.com title for learning.
 
-base: core20
+base: core18
 confinement: devmode
 
 parts:
   random-learning:
     plugin: nodejs
+    nodejs-version: 14.17.5
+    nodejs-package-manager: npm
     source: .
 
 apps:
