@@ -8,17 +8,11 @@ confinement: strict
 
 apps:
   random-learning:
-    command: bin/random-learning
+    command: random-learning
+    plugs: [ network ]
 
 parts:
   random-learning:
     plugin: nodejs
-    #nodejs-version: 16.14.0
     nodejs-package-manager: npm
     source: https://github.com/thehavays/random-learning.git
-
-plugs:
-  random-learning-home:
-    interface: home
-  random-learning-network:
-    interface: network
