@@ -14,5 +14,4 @@ apps:
 parts:
   random-learning:
     plugin: nodejs
-    nodejs-package-manager: npm
-    source: https://github.com/thehavays/random-learning.git
+    source: https://github.com/thehavays/random-learning.js.git
