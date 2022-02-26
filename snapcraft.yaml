@@ -8,11 +8,11 @@ confinement: strict
 
 apps:
   random-learning:
-    command: bin/node/random-learning.js
+    command: bin/random-learning
     plugs: [ network ]
 
 parts:
   random-learning:
     plugin: nodejs
-    source: https://github.com/thehavays/random-learning.git
+    source: .
     nodejs-package-manager: npm
