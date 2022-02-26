@@ -1,4 +1,4 @@
-name: random-learning-cli
+name: random-learning
 version: git
 summary: Random term and stackoverflow.com title for learning.
 description: Random term and stackoverflow.com title for learning.
@@ -7,8 +7,8 @@ grade: stable
 confinement: strict
 
 apps:
-  random-learning-cli:
-    command: random-learning
+  random-learning:
+    command: bin/random-learning
 
 parts:
   random-learning:
