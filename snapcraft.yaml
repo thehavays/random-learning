@@ -8,7 +8,7 @@ confinement: strict
 
 apps:
   random-learning:
-    command: random-learning.js
+    command: bin/random-learning
     plugs: [ network ]
 
 parts:
