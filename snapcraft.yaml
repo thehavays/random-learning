@@ -13,6 +13,6 @@ apps:
 
 parts:
   random-learning:
-    plugin: nodejs
+    plugin: npm
+    npm-node-version: 14.16.1
     source: .
-    nodejs-package-manager: npm
