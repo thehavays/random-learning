@@ -4,7 +4,7 @@ const program = new Command();
 program
     .name('random-learning')
     .description('Random terms and titles for learning.')
-    .version('0.0.1', '-v, --vers', 'Output the current version');
+    .version('0.0.2', '-v, --vers', 'Output the current version');
 
 program.command('write')
     .description('It\'s a example command for testing.')
