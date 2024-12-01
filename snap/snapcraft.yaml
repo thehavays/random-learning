@@ -23,4 +23,4 @@ parts:
     stage-packages:
       - golang-go             # Add other dependencies needed for your app
     override-build: |
-      make build              # Use the Makefile to build the project
+      go build -o $SNAPCRAFT_PART_INSTALL/random-learning
